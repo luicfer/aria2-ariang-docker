@@ -11,6 +11,6 @@ jobs:
           name: Push
           command: |
             docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker tag wahyd4/aria2-ui:1.0.$CIRCLE_BUILD_NUM wahyd4/aria2-ui:latest
-            docker push wahyd4/aria2-ui:1.0.$CIRCLE_BUILD_NUM
-            docker push wahyd4/aria2-ui:1.0.$CIRCLE_BUILD_NUM
+            docker tag luicfer/aria2-ui:1.0.$CIRCLE_BUILD_NUM luicfer/aria2-ui:latest
+            docker push luicfer/aria2-ui:1.0.$CIRCLE_BUILD_NUM
+            docker push luicfer/aria2-ui:1.0.$CIRCLE_BUILD_NUM
